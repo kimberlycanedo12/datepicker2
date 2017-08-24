@@ -9,7 +9,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context="com.example.joane14.myapplication.Activities.DatePicker" >
+    tools:context="com.example.kimberlycaedo.datepicker2.MainActivity" >
 
     <Button
         android:id="@+id/button1"
@@ -28,7 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="24dp"
-        android:text="@string/date_label_set"
+        android:text="Pick Date"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
@@ -38,7 +38,7 @@
         android:layout_below="@+id/button1"
         android:layout_marginTop="66dp"
         android:layout_toLeftOf="@+id/button1"
-        android:text=" @string/date_view_set"
+        android:text="Selected Date"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
