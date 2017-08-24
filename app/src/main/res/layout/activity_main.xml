@@ -9,7 +9,7 @@
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
-    tools:context=".MainActivity" >
+    tools:context="com.example.joane14.myapplication.Activities.DatePicker" >
 
     <Button
         android:id="@+id/button1"
@@ -38,7 +38,7 @@
         android:layout_below="@+id/button1"
         android:layout_marginTop="66dp"
         android:layout_toLeftOf="@+id/button1"
-        android:text="@string/date_view_set"
+        android:text=" @string/date_view_set"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
